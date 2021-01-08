@@ -17,6 +17,8 @@ function addTocard(index){
    console.log(cart)
    
   total=total+product.price
+  let totalone=document.getElementById(`total`)
+totalone.innerText=total
 
 
    let list =document.getElementById(`lest`)
